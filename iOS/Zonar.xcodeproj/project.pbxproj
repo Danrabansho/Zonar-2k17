@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7701BFBDC7ED0BA70B418430 /* Pods_ZonarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51DEFA19177163577ACF1E5F /* Pods_ZonarUITests.framework */; };
+		E03A9E202F152DD826F10BE2 /* Pods_Zonar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E5D68C36313119E71A21DF /* Pods_Zonar.framework */; };
+		E35B7BA2A927F81F3D308738 /* Pods_ZonarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4339D87D5FEEC7ABA60021E /* Pods_ZonarTests.framework */; };
+		F4261F681E2540CE00CD91E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4261F671E2540CE00CD91E6 /* AppDelegate.swift */; };
+		F4261F6A1E2540CE00CD91E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4261F691E2540CE00CD91E6 /* ViewController.swift */; };
+		F4261F6D1E2540CE00CD91E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4261F6B1E2540CE00CD91E6 /* Main.storyboard */; };
+		F4261F6F1E2540CE00CD91E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4261F6E1E2540CE00CD91E6 /* Assets.xcassets */; };
+		F4261F721E2540CE00CD91E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4261F701E2540CE00CD91E6 /* LaunchScreen.storyboard */; };
+		F4261F7D1E2540CE00CD91E6 /* ZonarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4261F7C1E2540CE00CD91E6 /* ZonarTests.swift */; };
+		F4261F881E2540CE00CD91E6 /* ZonarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4261F871E2540CE00CD91E6 /* ZonarUITests.swift */; };
+		F45194171E258B630018A706 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F45194161E258B630018A706 /* 5.png */; };
+		F4CEBE761E254BF7004C4611 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4CEBE751E254BF7004C4611 /* GoogleService-Info.plist */; };
+		F4D30D5A1E25588A00FFEA3F /* 12074327311562940906milker_X_icon.svg.hi.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D3D1E25588A00FFEA3F /* 12074327311562940906milker_X_icon.svg.hi.png */; };
+		F4D30D5B1E25588A00FFEA3F /* 8328875016_858296a355_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D3E1E25588A00FFEA3F /* 8328875016_858296a355_o.jpg */; };
+		F4D30D5C1E25588A00FFEA3F /* Albert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D3F1E25588A00FFEA3F /* Albert.jpg */; };
+		F4D30D5D1E25588A00FFEA3F /* Book_icon_(white_on_black).svg.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D401E25588A00FFEA3F /* Book_icon_(white_on_black).svg.png */; };
+		F4D30D5E1E25588A00FFEA3F /* builder2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D411E25588A00FFEA3F /* builder2.jpg */; };
+		F4D30D5F1E25588A00FFEA3F /* builder3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D421E25588A00FFEA3F /* builder3.jpg */; };
+		F4D30D601E25588A00FFEA3F /* builder4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D431E25588A00FFEA3F /* builder4.jpg */; };
+		F4D30D611E25588A00FFEA3F /* builder5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D441E25588A00FFEA3F /* builder5.jpg */; };
+		F4D30D621E25588A00FFEA3F /* builder6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D451E25588A00FFEA3F /* builder6.jpg */; };
+		F4D30D631E25588A00FFEA3F /* builder7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D461E25588A00FFEA3F /* builder7.jpg */; };
+		F4D30D641E25588A00FFEA3F /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D471E25588A00FFEA3F /* chat.png */; };
+		F4D30D651E25588A00FFEA3F /* chat_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D481E25588A00FFEA3F /* chat_circle.png */; };
+		F4D30D661E25588A00FFEA3F /* chatinput.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D491E25588A00FFEA3F /* chatinput.png */; };
+		F4D30D671E25588A00FFEA3F /* dT7eGEonc.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D4A1E25588A00FFEA3F /* dT7eGEonc.png */; };
+		F4D30D681E25588A00FFEA3F /* Flag-hover-reverse.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D4B1E25588A00FFEA3F /* Flag-hover-reverse.png */; };
+		F4D30D691E25588A00FFEA3F /* hat.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D4C1E25588A00FFEA3F /* hat.png */; };
+		F4D30D6A1E25588A00FFEA3F /* login_with_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D4D1E25588A00FFEA3F /* login_with_facebook.png */; };
+		F4D30D6B1E25588A00FFEA3F /* Mail.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D4E1E25588A00FFEA3F /* Mail.png */; };
+		F4D30D6C1E25588A00FFEA3F /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D4F1E25588A00FFEA3F /* map.png */; };
+		F4D30D6D1E25588A00FFEA3F /* meru.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D501E25588A00FFEA3F /* meru.png */; };
+		F4D30D6E1E25588A00FFEA3F /* pink-heart-md.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D511E25588A00FFEA3F /* pink-heart-md.png */; };
+		F4D30D6F1E25588A00FFEA3F /* PixelKit_home_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D521E25588A00FFEA3F /* PixelKit_home_icon.png */; };
+		F4D30D701E25588A00FFEA3F /* simple-grey-house-md.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D531E25588A00FFEA3F /* simple-grey-house-md.png */; };
+		F4D30D711E25588A00FFEA3F /* star_PNG1595.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D541E25588A00FFEA3F /* star_PNG1595.png */; };
+		F4D30D721E25588A00FFEA3F /* wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D551E25588A00FFEA3F /* wifi.png */; };
+		F4D30D731E25588A00FFEA3F /* wifi.png.crdownload in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D561E25588A00FFEA3F /* wifi.png.crdownload */; };
+		F4D30D741E25588A00FFEA3F /* Wikidata_tie_mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D571E25588A00FFEA3F /* Wikidata_tie_mockup.png */; };
+		F4D30D751E25588A00FFEA3F /* zonar grid.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D581E25588A00FFEA3F /* zonar grid.png */; };
+		F4D30D761E25588A00FFEA3F /* Zonar.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D591E25588A00FFEA3F /* Zonar.png */; };
+		F4D30D781E255CD600FFEA3F /* LaunchScreen.bmp in Resources */ = {isa = PBXBuildFile; fileRef = F4D30D771E255CD600FFEA3F /* LaunchScreen.bmp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4261F791E2540CE00CD91E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4261F5C1E2540CE00CD91E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4261F631E2540CE00CD91E6;
+			remoteInfo = Zonar;
+		};
+		F4261F841E2540CE00CD91E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4261F5C1E2540CE00CD91E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4261F631E2540CE00CD91E6;
+			remoteInfo = Zonar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0327F6CDCE358BDAC7DA2244 /* Pods-ZonarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZonarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZonarTests/Pods-ZonarTests.release.xcconfig"; sourceTree = "<group>"; };
+		05A155C2FE87C067B033E040 /* Pods-ZonarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZonarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZonarUITests/Pods-ZonarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		05E5D68C36313119E71A21DF /* Pods_Zonar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zonar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A29F322C2A179D396B0943 /* Pods-ZonarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZonarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZonarUITests/Pods-ZonarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51DEFA19177163577ACF1E5F /* Pods_ZonarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZonarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFE5C85DC6CE60F92A3B5C8 /* Pods-Zonar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zonar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zonar/Pods-Zonar.debug.xcconfig"; sourceTree = "<group>"; };
+		BBE42EA463018F11055FB99E /* Pods-Zonar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zonar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zonar/Pods-Zonar.release.xcconfig"; sourceTree = "<group>"; };
+		D4339D87D5FEEC7ABA60021E /* Pods_ZonarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZonarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4261F641E2540CE00CD91E6 /* Zonar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zonar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4261F671E2540CE00CD91E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4261F691E2540CE00CD91E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4261F6C1E2540CE00CD91E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4261F6E1E2540CE00CD91E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4261F711E2540CE00CD91E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4261F731E2540CE00CD91E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4261F781E2540CE00CD91E6 /* ZonarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZonarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4261F7C1E2540CE00CD91E6 /* ZonarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonarTests.swift; sourceTree = "<group>"; };
+		F4261F7E1E2540CE00CD91E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4261F831E2540CE00CD91E6 /* ZonarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZonarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4261F871E2540CE00CD91E6 /* ZonarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonarUITests.swift; sourceTree = "<group>"; };
+		F4261F891E2540CE00CD91E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45194161E258B630018A706 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		F4CEBE751E254BF7004C4611 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F4D30D3D1E25588A00FFEA3F /* 12074327311562940906milker_X_icon.svg.hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12074327311562940906milker_X_icon.svg.hi.png; sourceTree = "<group>"; };
+		F4D30D3E1E25588A00FFEA3F /* 8328875016_858296a355_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8328875016_858296a355_o.jpg; sourceTree = "<group>"; };
+		F4D30D3F1E25588A00FFEA3F /* Albert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Albert.jpg; sourceTree = "<group>"; };
+		F4D30D401E25588A00FFEA3F /* Book_icon_(white_on_black).svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Book_icon_(white_on_black).svg.png"; sourceTree = "<group>"; };
+		F4D30D411E25588A00FFEA3F /* builder2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = builder2.jpg; sourceTree = "<group>"; };
+		F4D30D421E25588A00FFEA3F /* builder3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = builder3.jpg; sourceTree = "<group>"; };
+		F4D30D431E25588A00FFEA3F /* builder4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = builder4.jpg; sourceTree = "<group>"; };
+		F4D30D441E25588A00FFEA3F /* builder5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = builder5.jpg; sourceTree = "<group>"; };
+		F4D30D451E25588A00FFEA3F /* builder6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = builder6.jpg; sourceTree = "<group>"; };
+		F4D30D461E25588A00FFEA3F /* builder7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = builder7.jpg; sourceTree = "<group>"; };
+		F4D30D471E25588A00FFEA3F /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		F4D30D481E25588A00FFEA3F /* chat_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_circle.png; sourceTree = "<group>"; };
+		F4D30D491E25588A00FFEA3F /* chatinput.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatinput.png; sourceTree = "<group>"; };
+		F4D30D4A1E25588A00FFEA3F /* dT7eGEonc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dT7eGEonc.png; sourceTree = "<group>"; };
+		F4D30D4B1E25588A00FFEA3F /* Flag-hover-reverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flag-hover-reverse.png"; sourceTree = "<group>"; };
+		F4D30D4C1E25588A00FFEA3F /* hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hat.png; sourceTree = "<group>"; };
+		F4D30D4D1E25588A00FFEA3F /* login_with_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_with_facebook.png; sourceTree = "<group>"; };
+		F4D30D4E1E25588A00FFEA3F /* Mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mail.png; sourceTree = "<group>"; };
+		F4D30D4F1E25588A00FFEA3F /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		F4D30D501E25588A00FFEA3F /* meru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meru.png; sourceTree = "<group>"; };
+		F4D30D511E25588A00FFEA3F /* pink-heart-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pink-heart-md.png"; sourceTree = "<group>"; };
+		F4D30D521E25588A00FFEA3F /* PixelKit_home_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PixelKit_home_icon.png; sourceTree = "<group>"; };
+		F4D30D531E25588A00FFEA3F /* simple-grey-house-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "simple-grey-house-md.png"; sourceTree = "<group>"; };
+		F4D30D541E25588A00FFEA3F /* star_PNG1595.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_PNG1595.png; sourceTree = "<group>"; };
+		F4D30D551E25588A00FFEA3F /* wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi.png; sourceTree = "<group>"; };
+		F4D30D561E25588A00FFEA3F /* wifi.png.crdownload */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wifi.png.crdownload; sourceTree = "<group>"; };
+		F4D30D571E25588A00FFEA3F /* Wikidata_tie_mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wikidata_tie_mockup.png; sourceTree = "<group>"; };
+		F4D30D581E25588A00FFEA3F /* zonar grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zonar grid.png"; sourceTree = "<group>"; };
+		F4D30D591E25588A00FFEA3F /* Zonar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zonar.png; sourceTree = "<group>"; };
+		F4D30D771E255CD600FFEA3F /* LaunchScreen.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = LaunchScreen.bmp; sourceTree = "<group>"; };
+		FBD09970869422776E254059 /* Pods-ZonarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZonarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZonarTests/Pods-ZonarTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4261F611E2540CE00CD91E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03A9E202F152DD826F10BE2 /* Pods_Zonar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4261F751E2540CE00CD91E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35B7BA2A927F81F3D308738 /* Pods_ZonarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4261F801E2540CE00CD91E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7701BFBDC7ED0BA70B418430 /* Pods_ZonarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AFFF45F11CCE81BE806BCBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05E5D68C36313119E71A21DF /* Pods_Zonar.framework */,
+				D4339D87D5FEEC7ABA60021E /* Pods_ZonarTests.framework */,
+				51DEFA19177163577ACF1E5F /* Pods_ZonarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB1B816F048EF9E5805F15BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE5C85DC6CE60F92A3B5C8 /* Pods-Zonar.debug.xcconfig */,
+				BBE42EA463018F11055FB99E /* Pods-Zonar.release.xcconfig */,
+				FBD09970869422776E254059 /* Pods-ZonarTests.debug.xcconfig */,
+				0327F6CDCE358BDAC7DA2244 /* Pods-ZonarTests.release.xcconfig */,
+				05A155C2FE87C067B033E040 /* Pods-ZonarUITests.debug.xcconfig */,
+				42A29F322C2A179D396B0943 /* Pods-ZonarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4261F5B1E2540CE00CD91E6 = {
+			isa = PBXGroup;
+			children = (
+				F4261F661E2540CE00CD91E6 /* Zonar */,
+				F4261F7B1E2540CE00CD91E6 /* ZonarTests */,
+				F4261F861E2540CE00CD91E6 /* ZonarUITests */,
+				F4261F651E2540CE00CD91E6 /* Products */,
+				AB1B816F048EF9E5805F15BD /* Pods */,
+				4AFFF45F11CCE81BE806BCBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4261F651E2540CE00CD91E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4261F641E2540CE00CD91E6 /* Zonar.app */,
+				F4261F781E2540CE00CD91E6 /* ZonarTests.xctest */,
+				F4261F831E2540CE00CD91E6 /* ZonarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4261F661E2540CE00CD91E6 /* Zonar */ = {
+			isa = PBXGroup;
+			children = (
+				F4D30D3C1E25588A00FFEA3F /* images */,
+				F4261F671E2540CE00CD91E6 /* AppDelegate.swift */,
+				F4261F691E2540CE00CD91E6 /* ViewController.swift */,
+				F4261F6B1E2540CE00CD91E6 /* Main.storyboard */,
+				F4261F6E1E2540CE00CD91E6 /* Assets.xcassets */,
+				F4261F701E2540CE00CD91E6 /* LaunchScreen.storyboard */,
+				F4261F731E2540CE00CD91E6 /* Info.plist */,
+				F4CEBE751E254BF7004C4611 /* GoogleService-Info.plist */,
+			);
+			path = Zonar;
+			sourceTree = "<group>";
+		};
+		F4261F7B1E2540CE00CD91E6 /* ZonarTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4261F7C1E2540CE00CD91E6 /* ZonarTests.swift */,
+				F4261F7E1E2540CE00CD91E6 /* Info.plist */,
+			);
+			path = ZonarTests;
+			sourceTree = "<group>";
+		};
+		F4261F861E2540CE00CD91E6 /* ZonarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4261F871E2540CE00CD91E6 /* ZonarUITests.swift */,
+				F4261F891E2540CE00CD91E6 /* Info.plist */,
+			);
+			path = ZonarUITests;
+			sourceTree = "<group>";
+		};
+		F4D30D3C1E25588A00FFEA3F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F45194161E258B630018A706 /* 5.png */,
+				F4D30D771E255CD600FFEA3F /* LaunchScreen.bmp */,
+				F4D30D3D1E25588A00FFEA3F /* 12074327311562940906milker_X_icon.svg.hi.png */,
+				F4D30D3E1E25588A00FFEA3F /* 8328875016_858296a355_o.jpg */,
+				F4D30D3F1E25588A00FFEA3F /* Albert.jpg */,
+				F4D30D401E25588A00FFEA3F /* Book_icon_(white_on_black).svg.png */,
+				F4D30D411E25588A00FFEA3F /* builder2.jpg */,
+				F4D30D421E25588A00FFEA3F /* builder3.jpg */,
+				F4D30D431E25588A00FFEA3F /* builder4.jpg */,
+				F4D30D441E25588A00FFEA3F /* builder5.jpg */,
+				F4D30D451E25588A00FFEA3F /* builder6.jpg */,
+				F4D30D461E25588A00FFEA3F /* builder7.jpg */,
+				F4D30D471E25588A00FFEA3F /* chat.png */,
+				F4D30D481E25588A00FFEA3F /* chat_circle.png */,
+				F4D30D491E25588A00FFEA3F /* chatinput.png */,
+				F4D30D4A1E25588A00FFEA3F /* dT7eGEonc.png */,
+				F4D30D4B1E25588A00FFEA3F /* Flag-hover-reverse.png */,
+				F4D30D4C1E25588A00FFEA3F /* hat.png */,
+				F4D30D4D1E25588A00FFEA3F /* login_with_facebook.png */,
+				F4D30D4E1E25588A00FFEA3F /* Mail.png */,
+				F4D30D4F1E25588A00FFEA3F /* map.png */,
+				F4D30D501E25588A00FFEA3F /* meru.png */,
+				F4D30D511E25588A00FFEA3F /* pink-heart-md.png */,
+				F4D30D521E25588A00FFEA3F /* PixelKit_home_icon.png */,
+				F4D30D531E25588A00FFEA3F /* simple-grey-house-md.png */,
+				F4D30D541E25588A00FFEA3F /* star_PNG1595.png */,
+				F4D30D551E25588A00FFEA3F /* wifi.png */,
+				F4D30D561E25588A00FFEA3F /* wifi.png.crdownload */,
+				F4D30D571E25588A00FFEA3F /* Wikidata_tie_mockup.png */,
+				F4D30D581E25588A00FFEA3F /* zonar grid.png */,
+				F4D30D591E25588A00FFEA3F /* Zonar.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4261F631E2540CE00CD91E6 /* Zonar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4261F8C1E2540CE00CD91E6 /* Build configuration list for PBXNativeTarget "Zonar" */;
+			buildPhases = (
+				94D7D8E33CB1E41C536B0E48 /* [CP] Check Pods Manifest.lock */,
+				F4261F601E2540CE00CD91E6 /* Sources */,
+				F4261F611E2540CE00CD91E6 /* Frameworks */,
+				F4261F621E2540CE00CD91E6 /* Resources */,
+				92650D7E3CE0AC193520AD7A /* [CP] Embed Pods Frameworks */,
+				4B7433EA3A7DF6195BDFD5AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zonar;
+			productName = Zonar;
+			productReference = F4261F641E2540CE00CD91E6 /* Zonar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4261F771E2540CE00CD91E6 /* ZonarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4261F8F1E2540CE00CD91E6 /* Build configuration list for PBXNativeTarget "ZonarTests" */;
+			buildPhases = (
+				5CAD883BA62D371E07227C8D /* [CP] Check Pods Manifest.lock */,
+				F4261F741E2540CE00CD91E6 /* Sources */,
+				F4261F751E2540CE00CD91E6 /* Frameworks */,
+				F4261F761E2540CE00CD91E6 /* Resources */,
+				454D58964C513F4F837246AF /* [CP] Embed Pods Frameworks */,
+				0E3BB03A76EC7894735D352D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4261F7A1E2540CE00CD91E6 /* PBXTargetDependency */,
+			);
+			name = ZonarTests;
+			productName = ZonarTests;
+			productReference = F4261F781E2540CE00CD91E6 /* ZonarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4261F821E2540CE00CD91E6 /* ZonarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4261F921E2540CE00CD91E6 /* Build configuration list for PBXNativeTarget "ZonarUITests" */;
+			buildPhases = (
+				0AEEB1733C7CC1A8C5597C44 /* [CP] Check Pods Manifest.lock */,
+				F4261F7F1E2540CE00CD91E6 /* Sources */,
+				F4261F801E2540CE00CD91E6 /* Frameworks */,
+				F4261F811E2540CE00CD91E6 /* Resources */,
+				A8036111F94E0782F506D1AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4261F851E2540CE00CD91E6 /* PBXTargetDependency */,
+			);
+			name = ZonarUITests;
+			productName = ZonarUITests;
+			productReference = F4261F831E2540CE00CD91E6 /* ZonarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4261F5C1E2540CE00CD91E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Franz Ayestaran";
+				TargetAttributes = {
+					F4261F631E2540CE00CD91E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MF8UX92P4L;
+						ProvisioningStyle = Automatic;
+					};
+					F4261F771E2540CE00CD91E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4261F631E2540CE00CD91E6;
+					};
+					F4261F821E2540CE00CD91E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4261F631E2540CE00CD91E6;
+					};
+				};
+			};
+			buildConfigurationList = F4261F5F1E2540CE00CD91E6 /* Build configuration list for PBXProject "Zonar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4261F5B1E2540CE00CD91E6;
+			productRefGroup = F4261F651E2540CE00CD91E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4261F631E2540CE00CD91E6 /* Zonar */,
+				F4261F771E2540CE00CD91E6 /* ZonarTests */,
+				F4261F821E2540CE00CD91E6 /* ZonarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4261F621E2540CE00CD91E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D30D6E1E25588A00FFEA3F /* pink-heart-md.png in Resources */,
+				F4D30D601E25588A00FFEA3F /* builder4.jpg in Resources */,
+				F4D30D6A1E25588A00FFEA3F /* login_with_facebook.png in Resources */,
+				F4D30D5E1E25588A00FFEA3F /* builder2.jpg in Resources */,
+				F4261F721E2540CE00CD91E6 /* LaunchScreen.storyboard in Resources */,
+				F4D30D681E25588A00FFEA3F /* Flag-hover-reverse.png in Resources */,
+				F4D30D651E25588A00FFEA3F /* chat_circle.png in Resources */,
+				F4D30D611E25588A00FFEA3F /* builder5.jpg in Resources */,
+				F4D30D621E25588A00FFEA3F /* builder6.jpg in Resources */,
+				F4D30D6B1E25588A00FFEA3F /* Mail.png in Resources */,
+				F4D30D5B1E25588A00FFEA3F /* 8328875016_858296a355_o.jpg in Resources */,
+				F45194171E258B630018A706 /* 5.png in Resources */,
+				F4D30D5C1E25588A00FFEA3F /* Albert.jpg in Resources */,
+				F4D30D731E25588A00FFEA3F /* wifi.png.crdownload in Resources */,
+				F4D30D5D1E25588A00FFEA3F /* Book_icon_(white_on_black).svg.png in Resources */,
+				F4CEBE761E254BF7004C4611 /* GoogleService-Info.plist in Resources */,
+				F4261F6F1E2540CE00CD91E6 /* Assets.xcassets in Resources */,
+				F4D30D721E25588A00FFEA3F /* wifi.png in Resources */,
+				F4D30D751E25588A00FFEA3F /* zonar grid.png in Resources */,
+				F4D30D5F1E25588A00FFEA3F /* builder3.jpg in Resources */,
+				F4D30D641E25588A00FFEA3F /* chat.png in Resources */,
+				F4D30D711E25588A00FFEA3F /* star_PNG1595.png in Resources */,
+				F4D30D631E25588A00FFEA3F /* builder7.jpg in Resources */,
+				F4D30D691E25588A00FFEA3F /* hat.png in Resources */,
+				F4D30D741E25588A00FFEA3F /* Wikidata_tie_mockup.png in Resources */,
+				F4D30D781E255CD600FFEA3F /* LaunchScreen.bmp in Resources */,
+				F4D30D6C1E25588A00FFEA3F /* map.png in Resources */,
+				F4D30D671E25588A00FFEA3F /* dT7eGEonc.png in Resources */,
+				F4D30D6F1E25588A00FFEA3F /* PixelKit_home_icon.png in Resources */,
+				F4D30D701E25588A00FFEA3F /* simple-grey-house-md.png in Resources */,
+				F4D30D6D1E25588A00FFEA3F /* meru.png in Resources */,
+				F4D30D5A1E25588A00FFEA3F /* 12074327311562940906milker_X_icon.svg.hi.png in Resources */,
+				F4261F6D1E2540CE00CD91E6 /* Main.storyboard in Resources */,
+				F4D30D661E25588A00FFEA3F /* chatinput.png in Resources */,
+				F4D30D761E25588A00FFEA3F /* Zonar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4261F761E2540CE00CD91E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4261F811E2540CE00CD91E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AEEB1733C7CC1A8C5597C44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0E3BB03A76EC7894735D352D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZonarTests/Pods-ZonarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		454D58964C513F4F837246AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZonarTests/Pods-ZonarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B7433EA3A7DF6195BDFD5AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zonar/Pods-Zonar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CAD883BA62D371E07227C8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92650D7E3CE0AC193520AD7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zonar/Pods-Zonar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94D7D8E33CB1E41C536B0E48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8036111F94E0782F506D1AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZonarUITests/Pods-ZonarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4261F601E2540CE00CD91E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4261F6A1E2540CE00CD91E6 /* ViewController.swift in Sources */,
+				F4261F681E2540CE00CD91E6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4261F741E2540CE00CD91E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4261F7D1E2540CE00CD91E6 /* ZonarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4261F7F1E2540CE00CD91E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4261F881E2540CE00CD91E6 /* ZonarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4261F7A1E2540CE00CD91E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4261F631E2540CE00CD91E6 /* Zonar */;
+			targetProxy = F4261F791E2540CE00CD91E6 /* PBXContainerItemProxy */;
+		};
+		F4261F851E2540CE00CD91E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4261F631E2540CE00CD91E6 /* Zonar */;
+			targetProxy = F4261F841E2540CE00CD91E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4261F6B1E2540CE00CD91E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4261F6C1E2540CE00CD91E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4261F701E2540CE00CD91E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4261F711E2540CE00CD91E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4261F8A1E2540CE00CD91E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4261F8B1E2540CE00CD91E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4261F8D1E2540CE00CD91E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CFE5C85DC6CE60F92A3B5C8 /* Pods-Zonar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MF8UX92P4L;
+				INFOPLIST_FILE = Zonar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mangoSteam.Zonar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F4261F8E1E2540CE00CD91E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE42EA463018F11055FB99E /* Pods-Zonar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MF8UX92P4L;
+				INFOPLIST_FILE = Zonar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mangoSteam.Zonar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F4261F901E2540CE00CD91E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD09970869422776E254059 /* Pods-ZonarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZonarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zonktechnology.ZonarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zonar.app/Zonar";
+			};
+			name = Debug;
+		};
+		F4261F911E2540CE00CD91E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0327F6CDCE358BDAC7DA2244 /* Pods-ZonarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZonarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zonktechnology.ZonarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zonar.app/Zonar";
+			};
+			name = Release;
+		};
+		F4261F931E2540CE00CD91E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A155C2FE87C067B033E040 /* Pods-ZonarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZonarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zonktechnology.ZonarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Zonar;
+			};
+			name = Debug;
+		};
+		F4261F941E2540CE00CD91E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42A29F322C2A179D396B0943 /* Pods-ZonarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZonarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zonktechnology.ZonarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Zonar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4261F5F1E2540CE00CD91E6 /* Build configuration list for PBXProject "Zonar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4261F8A1E2540CE00CD91E6 /* Debug */,
+				F4261F8B1E2540CE00CD91E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4261F8C1E2540CE00CD91E6 /* Build configuration list for PBXNativeTarget "Zonar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4261F8D1E2540CE00CD91E6 /* Debug */,
+				F4261F8E1E2540CE00CD91E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4261F8F1E2540CE00CD91E6 /* Build configuration list for PBXNativeTarget "ZonarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4261F901E2540CE00CD91E6 /* Debug */,
+				F4261F911E2540CE00CD91E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4261F921E2540CE00CD91E6 /* Build configuration list for PBXNativeTarget "ZonarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4261F931E2540CE00CD91E6 /* Debug */,
+				F4261F941E2540CE00CD91E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4261F5C1E2540CE00CD91E6 /* Project object */;
+}
