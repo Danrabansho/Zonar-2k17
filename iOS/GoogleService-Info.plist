@@ -7,32 +7,34 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>245424089567-ph57hekv46dbf8ergefkgj85o190ga54.apps.googleusercontent.com</string>
+	<string>356656654034-97hlvejkcha80qvt76sof858d8k1h31f.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.245424089567-ph57hekv46dbf8ergefkgj85o190ga54</string>
+	<string>com.googleusercontent.apps.356656654034-97hlvejkcha80qvt76sof858d8k1h31f</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDWwZIwwNV7XyEzdj_twrMWr9Y_u8TjNGc</string>
 	<key>GCM_SENDER_ID</key>
-	<string>245424089567</string>
+	<string>356656654034</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>net.mangosteam.zonar</string>
+	<string>com.mangoSteam.Zonar</string>
 	<key>PROJECT_ID</key>
-	<string>zonar-3b37a</string>
+	<string>zonar-a3ae7</string>
 	<key>STORAGE_BUCKET</key>
-	<string>zonar-3b37a.appspot.com</string>
+	<string>zonar-a3ae7.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
 	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false/>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
 	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:245424089567:ios:f48ff871a608d2c1</string>
+	<string>1:356656654034:ios:64e075dd69dbbc93</string>
 	<key>DATABASE_URL</key>
-	<string>https://zonar-3b37a.firebaseio.com</string>
+	<string>https://zonar-a3ae7.firebaseio.com</string>
 </dict>
 </plist>
